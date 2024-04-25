@@ -1,0 +1,81 @@
+/* MENU */
+.menu {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.menu .menuTitle {
+  font-family: 'Airbnb Cereal App', sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+}
+
+.menuList {
+  width: 80%;
+  max-width: 1200px;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MENU ITEM STYLING */
+.menuItem {
+  border-radius: 10px;
+  width: 100%;
+  height: 300px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.menuItem:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  transition: 0.3s ease-in-out;
+}
+
+.menuItem div {
+  width: 100%;
+  height: 60%;
+  background-color: #ddd;
+  background-image: url(''); /* Add background image URL */
+  background-size: cover;
+  background-position: center;
+}
+
+.menuItemContent {
+  padding: 20px;
+}
+
+.menuItem h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.menuItem p {
+  font-size: 14px;
+  color: #666;
+}
+
+@media only screen and (max-width: 992px) {
+  .menuList {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .menuTitle {
+    font-size: 36px;
+  }
+}
