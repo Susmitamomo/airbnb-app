@@ -1,3 +1,12 @@
+Airbnb Website
+This Airbnb website is built using React.js, HTML, and CSS. It consists of four main pages: Home, Properties, Profile, and Contact Us. The data for properties and user profiles is sourced from a local JSON file.
+
+Features
+Home: Landing page showcasing featured properties and special offers.
+Properties: Displays a list of available properties with detailed information.
+Profile: Allows users to view and manage their profile settings and bookings.
+Contact Us: Provides a contact form for users to get in touch with the website admin
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
